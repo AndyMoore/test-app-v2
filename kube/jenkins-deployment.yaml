@@ -35,7 +35,7 @@ spec:
         - name: JENKINS_ADMIN_PASSWORD
           value: very_secret
         - name: SEED_JOBS_REPO
-          value: git@github.com:AndyMoore111/test-app-v2.git
+          value: git@github.com:AndyMoore/test-app-v2.git
         - name: GIT_PRIVATE_KEY
           value: |
             -----BEGIN RSA PRIVATE KEY-----
@@ -88,7 +88,7 @@ spec:
             fieldRef:
               apiVersion: v1
               fieldPath: metadata.namespace
-        image: bitesize-registry.default.svc.cluster.local:5000/geribatai/jenkins:3.4.35
+        image: bitesize-registry.default.svc.cluster.local:5000/geribatai/jenkins:3.5.35-3
         imagePullPolicy: Always
         securityContext:
           runAsUser: 1000

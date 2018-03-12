@@ -8,7 +8,7 @@ metadata:
   namespace: test-app
 spec:
   rules:
-  - host: jenkins.test-app.dev.prsn-dev.io
+  - host: jenkins.andy1.us-west-2.prsn-dev.io
     http:
       paths:
       - backend:
